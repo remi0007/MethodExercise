@@ -16,7 +16,7 @@ namespace MethodExercise
             Console.WriteLine("Hello - What is your first name?");
             var userName = Console.ReadLine();
 
-            Console.WriteLine($"Hi, {unserName}. What is your favorite color?");
+            Console.WriteLine($"Hi, {userName}. What is your favorite color?");
             var color = Console.ReadLine();
 
             Console.WriteLine($" {color} is an awsome color! What is your favorite animal?");
@@ -25,10 +25,19 @@ namespace MethodExercise
             Console.WriteLine("Great! Now, what is your favorite band?");
             var band = Console.ReadLine();
 
+            
+            Console.WriteLine($" Name: {userName}");
+
+            Console.WriteLine($" Favorite color: {color}");
+
+            Console.WriteLine($" Favorite animial: {animal}");
+
+            Console.WriteLine($" Favorite band: {band}");
 
 
 
-            Console.WriteLine("Hello World!");
+
+           
         }
     }
 }
