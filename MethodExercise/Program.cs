@@ -25,6 +25,7 @@ namespace MethodExercise
             Console.WriteLine("Great! Now, what is your favorite band?");
             var band = Console.ReadLine();
 
+            Console.WriteLine($" Merci, {userName}!!");
             
             Console.WriteLine($" Name: {userName}");
 
