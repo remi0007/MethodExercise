@@ -1,9 +1,12 @@
 ﻿using System;
+using System.ComponentModel;
 
 namespace MethodExercise
 {
     class Program
     {
+
+        
         static void Main(string[] args)
         {
             // -----------------Exercise 1
@@ -36,9 +39,29 @@ namespace MethodExercise
             Console.WriteLine($" Favorite band: {band}");
 
 
+            var amountofCars = Sum(2, 6);
 
+            var toy = Multiply(40, 2);
 
-           
+            var ball = Divide(50, 5);
+        }
+
+       public  static int Sum(int num1, int num2)
+        {
+            var answer = num1 + num2;
+            return answer;
+        }
+
+        public static int Multiply(int num1, int num2)
+        {
+            var answer = num1 * num2;
+            return answer;
+        }
+
+        public static int Divide(int num1, int num2)
+        {
+            var answer = num1 / num2;
+            return answer;
         }
     }
 }
